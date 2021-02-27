@@ -180,7 +180,6 @@ public class MainActivity extends AppCompatActivity {
                 finish();
             }
         } else if (requestCode == RC_PHOTO_PICKER && resultCode == RESULT_OK) {
-            Toast.makeText(this, "I m in", Toast.LENGTH_SHORT);
             Uri selectedImageUri = data.getData();
 
             // Get a reference to store file at chat_photos/<FILENAME>
